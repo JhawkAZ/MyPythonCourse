@@ -1,0 +1,21 @@
+def print_movie_info(name,year):
+    """ returns name and year of movie"""
+    print(f'The movie {name} is from {year}')
+
+print_movie_info('Halloween',1984)
+
+def movie_info(movie,year):
+    """ returns formatted string"""
+    movie=f'The movie {movie} is from {year}'
+    return movie
+print(movie_info('The keep',1984))
+
+
+list={
+    "Halloween":1984,
+    "The Keep":1982,
+    "Star Wars":1978
+}
+
+for x,y in list.items():
+   print(movie_info(x,y))
