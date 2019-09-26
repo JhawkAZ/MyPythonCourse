@@ -1,5 +1,5 @@
 counter=int(input('enter limit '))
-if counter
+
 while True:
     if counter ==20:
         break
